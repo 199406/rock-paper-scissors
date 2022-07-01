@@ -1,0 +1,62 @@
+body {
+    background-color: #fcd86d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.game-icons {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.icon {
+    height: 200px;
+    width: 200px;
+    border: 5px solid blueviolet;
+}
+
+.results {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.score {
+    font-size: 30px;
+}
+
+
+.computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+p {
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
